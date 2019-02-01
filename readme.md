@@ -12,7 +12,7 @@ I am going to use the [haskell](https://hub.docker.com/_/haskell) image, version
 
 ### ghci
 
-To simply play witht he GHCI, run the following:
+To simply play with GHCI, run the following:
 
 * ```ghci.bat``` - windows (I used ```.bat``` and not ```.sh``` extension to avoid problems with the ```-it``` flag of ```docker run```). Powershell recommended.
 * ```ghci.sh``` - *nix.
