@@ -1,6 +1,7 @@
 - [haskell anywhere](#haskell-anywhere)
   - [base image](#base-image)
     - [ghci](#ghci)
+      - [examples](#examples)
 
 # haskell anywhere
 
@@ -16,3 +17,13 @@ To simply play with GHCI, run the following:
 
 * ```ghci.bat``` - windows (I used ```.bat``` and not ```.sh``` extension to avoid problems with the ```-it``` flag of ```docker run```). Powershell recommended.
 * ```ghci.sh``` - *nix.
+
+#### examples
+
+GHCI container with a shared volume:
+
+```C:\Users\piotr_justyna\Documents\github\haskell-anywhere\ghci.bat C:\Users\piotr_justyna\Documents\github\programming-in-haskell```
+
+GHCI container with no shared volume:
+
+```C:\Users\piotr_justyna\Documents\github\haskell-anywhere\ghci.bat```
